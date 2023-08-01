@@ -21,8 +21,6 @@ public class LoginPage {
     @FindBy(xpath = "//input[@value='Login']")
     WebElement loginBtn;
 
-
-
     public WebElement emailField(){
         return emailField;
     }
